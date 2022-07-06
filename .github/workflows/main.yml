@@ -1,0 +1,15 @@
+- name: 🔂 Surge PR Preview
+  # You may pin to the exact commit or the version.
+  # uses: afc163/surge-preview@d8947534eca16d181cb5648060190580a0f93ea3
+  uses: afc163/surge-preview@v1.0.0
+  with:
+    # surge.sh token
+    surge_token: 
+    # github token
+    github_token: 
+    # build scripts
+    build: # optional, default is npm install
+npm run build
+
+    # dist folder to deploy
+    dist: # optional, default is public
